@@ -1,0 +1,924 @@
+# Copyright (C) 2021 KaizenCoders
+# This file is distributed under the same license as the URL Shortify plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: URL Shortify 1.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/url-shortify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-15T11:30:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: url-shortify\n"
+
+#. Plugin Name of the plugin
+#: lite/includes/Admin.php:243
+#: lite/includes/Helper.php:368
+msgid "URL Shortify"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/url-shortify"
+msgstr ""
+
+#. Description of the plugin
+msgid "URL Shortify helps you beautify, manage, share & cloak any links on or off of your WordPress website. Create links that look how you want using your own domain name!"
+msgstr ""
+
+#. Author of the plugin
+msgid "KaizenCoders"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kaizencoders.com/"
+msgstr ""
+
+#: lite/includes/Admin.php:248
+#: lite/includes/Admin/Templates/dashboard.php:57
+msgid "Dashboard"
+msgstr ""
+
+#: lite/includes/Admin.php:251
+#: lite/includes/Admin/admin-settings.php:213
+#: lite/includes/Admin/Groups_Table.php:110
+#: lite/includes/Admin/Links_Table.php:45
+#: lite/includes/Admin/Links_Table.php:130
+msgid "Links"
+msgstr ""
+
+#: lite/includes/Admin.php:255
+#: lite/includes/Admin/Groups_Table.php:37
+#: lite/includes/Admin/Groups_Table.php:83
+#: lite/includes/Admin/Links_Table.php:158
+#: lite/includes/Admin/Templates/link-form.php:201
+msgid "Groups"
+msgstr ""
+
+#: lite/includes/Admin.php:259
+#: pro/includes/Actions.php:1112
+#: pro/includes/Admin/Domains_Table.php:37
+#: pro/includes/Admin/Domains_Table.php:67
+msgid "Domains"
+msgstr ""
+
+#: lite/includes/Admin.php:265
+#: lite/includes/Admin/Tools.php:42
+#: lite/includes/Admin/Tools.php:43
+msgid "Tools"
+msgstr ""
+
+#: lite/includes/Admin.php:433
+msgid "<span id=\"footer-thankyou\">Thank you for creating with <a href=\"%1$s\" target=\"_blank\">WordPress</a> | URL Shortify <b>%2$s</b>. Developed by team <a href=\"%3$s\" target=\"_blank\">KaizenCoders</a></span>"
+msgstr ""
+
+#: lite/includes/Admin.php:558
+msgid "URL Shortify Quick Add"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:225
+#: lite/includes/Admin/Templates/link-form.php:138
+msgid "Redirection"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:234
+msgid "Nofollow"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:242
+#: lite/includes/Admin/Templates/link-form.php:27
+msgid "Sponsored"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:250
+msgid "Paramter Forwarding"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:258
+#: lite/includes/Admin/Templates/link-form.php:37
+msgid "Tracking"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/DashboardController.php:49
+#: lite/includes/Admin/Groups_Table.php:177
+msgid "Total Links"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/DashboardController.php:56
+msgid "Total Groups"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/DashboardController.php:63
+msgid "Total Clicks"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/DashboardController.php:70
+msgid "Unique Clicks"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/DashboardController.php:102
+#: lite/includes/Admin/Controllers/GroupStatsController.php:98
+#: lite/includes/Admin/Controllers/LinkStatsController.php:100
+msgid "Others"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/ToolsController.php:39
+#: lite/includes/Admin/Templates/tools.php:61
+#: lite/includes/Admin/Templates/tools.php:80
+#: lite/includes/Admin/Templates/tools.php:101
+#: lite/includes/Admin/tools-settings.php:39
+msgid "Import"
+msgstr ""
+
+#: lite/includes/Admin/DB/Clicks.php:381
+msgid "Direct, Email, SMS"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:36
+msgid "Group"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:68
+msgid "You do not have permission to view statistics of this group."
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:109
+#: lite/includes/Admin/Templates/group-form.php:41
+msgid "Name"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:111
+#: lite/includes/Admin/Links_Table.php:156
+#: lite/includes/Admin/Templates/group-stats.php:49
+#: lite/includes/Common/Actions.php:221
+msgid "Clicks"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:112
+#: lite/includes/Admin/Links_Table.php:160
+#: lite/includes/Admin/Templates/group-stats.php:50
+#: pro/includes/Admin/Domains_Table.php:94
+msgid "Created On"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:150
+#: lite/includes/Admin/Links_Table.php:217
+#: pro/includes/Admin/Domains_Table.php:130
+msgid "<a href=\"%s\" class=\"text-indigo-600\">Edit</a>"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:153
+#: lite/includes/Admin/Links_Table.php:218
+msgid "<a href=\"%s\">Statistics</a>"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:156
+#: pro/includes/Admin/Domains_Table.php:132
+msgid "<a href=\"%s\">Delete</a>"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:177
+msgid "<a href=\"%1$s\"  title=\"%2$s\" class=\"kc-us-group\"/>%3$s</a>"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:318
+#: lite/includes/Admin/Links_Table.php:476
+#: pro/includes/Admin/Domains_Table.php:253
+msgid "Delete"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:335
+#: pro/includes/Admin/Domains_Table.php:270
+msgid "You do not have permission to delete this group."
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:344
+msgid "Group has been deleted successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:359
+msgid "Groups(s) have been deleted successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:362
+msgid "Please select group(s) to delete."
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:408
+msgid "Group has been saved successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:426
+msgid "Edit Group"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:427
+#: lite/includes/Admin/Links_Table.php:584
+#: pro/includes/Admin/Domains_Table.php:362
+msgid "Save Changes"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:436
+#: lite/includes/Admin/Templates/dashboard.php:82
+msgid "New Group"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:437
+msgid "Save Group"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:505
+msgid "You do not have permission to edit this group."
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:512
+msgid "Please Enter Name"
+msgstr ""
+
+#: lite/includes/Admin/Groups_Table.php:553
+msgid "Search Groups"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:44
+#: lite/includes/Admin/Links_Table.php:161
+#: lite/includes/Admin/Templates/dashboard.php:40
+#: lite/includes/Admin/Templates/group-stats.php:35
+#: lite/includes/Admin/Templates/group-stats.php:51
+msgid "Link"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:83
+msgid "Number of Links per page"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:115
+msgid "You do not have permission to view statistics of this link."
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:155
+#: lite/includes/Admin/Templates/group-stats.php:48
+#: lite/includes/Admin/Templates/link-form.php:78
+msgid "Title"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:157
+msgid "Redirect Type"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:159
+msgid "Linked Post"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:219
+msgid "<a href=\"%s\" onclick=\"return confirmDelete();\" >Delete</a>"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:493
+msgid "You do not have permission to delete this link."
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:502
+msgid "Link has been deleted successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:517
+msgid "Link(s) have been deleted successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:520
+msgid "Please select link(s) to delete."
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:565
+msgid "Link data have been saved successfully!"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:583
+msgid "Edit Link"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:594
+#: lite/includes/Admin/Templates/dashboard.php:81
+msgid "New Link"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:595
+msgid "Save Link"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:689
+msgid "You do not have permission to edit this form."
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:696
+msgid "Please enter Title"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:701
+msgid "Please enter Target URL"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:704
+msgid "Please enter valid Target URL"
+msgstr ""
+
+#: lite/includes/Admin/Links_Table.php:754
+msgid "Search Links"
+msgstr ""
+
+#: lite/includes/Admin/Settings.php:40
+#: lite/includes/Admin/Settings.php:41
+#: pro/includes/Settings.php:160
+#: pro/includes/Settings.php:222
+msgid "Settings"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:38
+#: lite/includes/Admin/Templates/group-stats.php:33
+#: lite/includes/Admin/Templates/link-stats.php:37
+msgid "IP"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:39
+#: lite/includes/Admin/Templates/group-stats.php:34
+msgid "URI"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:41
+#: lite/includes/Admin/Templates/group-stats.php:36
+#: lite/includes/Admin/Templates/link-stats.php:38
+#: pro/includes/Admin/Domains_Table.php:93
+#: pro/includes/Admin/Templates/domain-form.php:41
+msgid "Host"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:42
+#: lite/includes/Admin/Templates/group-stats.php:37
+#: lite/includes/Admin/Templates/link-stats.php:39
+#: pro/includes/Actions.php:470
+msgid "Referrer"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:43
+#: lite/includes/Admin/Templates/group-stats.php:38
+#: lite/includes/Admin/Templates/link-stats.php:40
+msgid "Clicked On"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:44
+#: lite/includes/Admin/Templates/group-stats.php:39
+#: lite/includes/Admin/Templates/link-stats.php:41
+msgid "Info"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:62
+#: lite/includes/Admin/Templates/group-stats.php:93
+#: lite/includes/Admin/Templates/link-stats.php:112
+msgid "Last Updated On: %s"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:63
+#: lite/includes/Admin/Templates/group-stats.php:94
+#: lite/includes/Admin/Templates/link-stats.php:113
+msgid "Refresh"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:71
+#: lite/includes/Admin/Templates/widgets/dashboard-widget.php:29
+#: lite/includes/Common/Actions.php:275
+msgid "Create"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:137
+#: lite/includes/Admin/Templates/group-stats.php:108
+#: lite/includes/Admin/Templates/link-stats.php:106
+msgid "Clicks History"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:141
+#: lite/includes/Admin/Templates/dashboard.php:354
+msgid "Last %d days"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:142
+#: lite/includes/Admin/Templates/group-stats.php:109
+#: lite/includes/Admin/Templates/link-stats.php:107
+msgid "%d Total Clicks"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:156
+msgid "<a href=\"%s\">Unlock Full Click History</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:176
+#: lite/includes/Admin/Templates/group-stats.php:125
+#: lite/includes/Admin/Templates/link-stats.php:132
+msgid "Top Locations"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:194
+#: lite/includes/Admin/Templates/dashboard.php:228
+#: lite/includes/Admin/Templates/dashboard.php:267
+#: lite/includes/Admin/Templates/dashboard.php:299
+#: lite/includes/Admin/Templates/dashboard.php:332
+#: lite/includes/Admin/Templates/group-stats.php:143
+#: lite/includes/Admin/Templates/group-stats.php:177
+#: lite/includes/Admin/Templates/group-stats.php:216
+#: lite/includes/Admin/Templates/group-stats.php:248
+#: lite/includes/Admin/Templates/group-stats.php:281
+#: lite/includes/Admin/Templates/link-stats.php:150
+#: lite/includes/Admin/Templates/link-stats.php:184
+#: lite/includes/Admin/Templates/link-stats.php:223
+#: lite/includes/Admin/Templates/link-stats.php:255
+#: lite/includes/Admin/Templates/link-stats.php:288
+msgid "<a href=\"%s\">Upgrade Now</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:198
+#: lite/includes/Admin/Templates/group-stats.php:147
+#: lite/includes/Admin/Templates/link-stats.php:154
+msgid "Get insights about top locations from where people are clicking on your links."
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:211
+#: lite/includes/Admin/Templates/group-stats.php:160
+#: lite/includes/Admin/Templates/link-stats.php:167
+msgid "Referrers"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:232
+#: lite/includes/Admin/Templates/group-stats.php:181
+#: lite/includes/Admin/Templates/link-stats.php:188
+msgid "Know who are your top referrers."
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:251
+#: lite/includes/Admin/Templates/group-stats.php:200
+#: lite/includes/Admin/Templates/link-stats.php:207
+msgid "Top Devices"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:271
+#: lite/includes/Admin/Templates/group-stats.php:220
+#: lite/includes/Admin/Templates/link-stats.php:227
+msgid "Want to know which devices were used to access your links?"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:283
+#: lite/includes/Admin/Templates/group-stats.php:232
+#: lite/includes/Admin/Templates/link-stats.php:239
+msgid "Top Browsers"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:303
+#: lite/includes/Admin/Templates/group-stats.php:252
+#: lite/includes/Admin/Templates/link-stats.php:259
+msgid "Get information about browsers."
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:316
+#: lite/includes/Admin/Templates/group-stats.php:265
+#: lite/includes/Admin/Templates/link-stats.php:272
+msgid "Top Platforms"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:336
+#: lite/includes/Admin/Templates/group-stats.php:285
+#: lite/includes/Admin/Templates/link-stats.php:292
+msgid "Know more about which devices people used to access your links."
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:350
+#: lite/includes/Admin/Templates/group-stats.php:327
+#: lite/includes/Admin/Templates/link-stats.php:306
+msgid "Clicks Details"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:368
+msgid "<a href=\"%s\">Upgrade to <b\">PRO</b> & Unlock Full Click History</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:478
+msgid "Convert your long, ugly links into clean, memorable, shareable links"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:483
+msgid "Get Started"
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-form.php:19
+msgid "Groups "
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-form.php:56
+msgid "Description"
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-form.php:70
+#: lite/includes/Admin/Templates/link-form.php:361
+#: pro/includes/Admin/Templates/domain-form.php:56
+msgid "Cancel"
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-stats.php:69
+#: lite/includes/Admin/Templates/link-stats.php:59
+msgid "Your plugin plan is limited to 1 week of historical data. Upgrade your plan to see all historical data"
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-stats.php:72
+#: lite/includes/Admin/Templates/link-stats.php:62
+msgid "Upgrade Now"
+msgstr ""
+
+#: lite/includes/Admin/Templates/group-stats.php:299
+msgid "Links Info"
+msgstr ""
+
+#: lite/includes/Admin/Templates/groups.php:16
+#: lite/includes/Admin/Templates/links.php:18
+#: pro/includes/Admin/Templates/domains.php:16
+msgid "Add New"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:23
+msgid "No Follow"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:31
+msgid "Parameter Forwarding"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:51
+msgid "Links "
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:93
+#: lite/includes/Admin/Templates/widgets/dashboard-widget.php:19
+msgid "Target URL"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:117
+#: lite/includes/Admin/Templates/widgets/dashboard-widget.php:23
+msgid "Short URL"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:166
+#: pro/includes/Admin/Domains_Table.php:36
+msgid "Domain"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:187
+msgid "Select on which domain should this short link be accessible."
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:189
+msgid "Want to use shortlinks with custom domains? <a href=\"%s\">Upgrade Now</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:228
+msgid "No Group found. <a href=\"%s\">Create a new Group</a> and add link to group."
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:281
+#: pro/includes/Actions.php:170
+msgid "Expiration Date"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:295
+msgid "Set expiry date of the link with PRO version. <a href=\"%s\">Upgrade Now</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:315
+#: pro/includes/Actions.php:250
+#: pro/Templates/password.php:11
+msgid "Password"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:329
+msgid "Protect your short link with password using PRO version. <a href=\"%s\">Upgrade Now</a>"
+msgstr ""
+
+#: lite/includes/Admin/Templates/link-form.php:343
+msgid "Notes"
+msgstr ""
+
+#: lite/includes/Admin/Templates/tools.php:55
+msgid "Import From CSV File"
+msgstr ""
+
+#: lite/includes/Admin/Templates/tools.php:74
+msgid "Import Short Links From <a href=\"%s\" target=\"_blank\">Pretty Links</a> WordPress Plugin"
+msgstr ""
+
+#: lite/includes/Admin/Templates/tools.php:95
+msgid "Import Short Links From <a href=\"%s\" target=\"_blank\">URL Shortener by MyThemeShop</a> WordPress Plugin"
+msgstr ""
+
+#: lite/includes/Admin/tools-settings.php:52
+msgid "Import CSV File"
+msgstr ""
+
+#: lite/includes/Admin/tools-settings.php:62
+msgid "Import Short Links"
+msgstr ""
+
+#: lite/includes/Admin/US_List_Table.php:132
+msgid "Show more details"
+msgstr ""
+
+#: lite/includes/Common/Actions.php:147
+msgid "Short Link [URL Shortify]"
+msgstr ""
+
+#: lite/includes/Common/Actions.php:222
+msgid "Short Link"
+msgstr ""
+
+#: lite/includes/Common/Actions.php:311
+msgid "Short Link:"
+msgstr ""
+
+#: lite/includes/Common/Actions.php:345
+msgid "Generate Short URL"
+msgstr ""
+
+#: lite/includes/Common/Actions.php:353
+msgid "A Short URL will be created on Publish"
+msgstr ""
+
+#: lite/includes/Common/Utils.php:549
+msgid "Just Now"
+msgstr ""
+
+#: lite/includes/Helper.php:610
+#: lite/includes/Helper.php:613
+msgid "Copy"
+msgstr ""
+
+#: lite/includes/Helper.php:656
+msgid "Unique Clicks / Total Clicks"
+msgstr ""
+
+#: lite/includes/Helper.php:830
+msgid "Post"
+msgstr ""
+
+#: lite/includes/Helper.php:835
+msgid "Page"
+msgstr ""
+
+#: lite/includes/Helper.php:840
+msgid "WooCommerce"
+msgstr ""
+
+#: lite/includes/Helper.php:845
+msgid "Easy Digital Download"
+msgstr ""
+
+#: lite/includes/Helper.php:850
+msgid "Events Manager"
+msgstr ""
+
+#: lite/includes/Helper.php:855
+msgid "The Events Calendar"
+msgstr ""
+
+#: lite/includes/Helper.php:860
+msgid "Betterdocs"
+msgstr ""
+
+#: lite/includes/Helper.php:865
+msgid "WordPress Knowledgebase"
+msgstr ""
+
+#: lite/includes/Helper.php:870
+msgid "Modern Events"
+msgstr ""
+
+#: pro/includes/Actions.php:445
+#: pro/includes/Actions.php:496
+#: pro/includes/Actions.php:590
+#: pro/includes/Actions.php:680
+#: pro/includes/Actions.php:770
+msgid "No Data Found"
+msgstr ""
+
+#: pro/includes/Actions.php:471
+msgid "Count"
+msgstr ""
+
+#: pro/includes/Actions.php:792
+msgid "Cloak"
+msgstr ""
+
+#: pro/includes/Actions.php:793
+msgid "Meta Refresh"
+msgstr ""
+
+#: pro/includes/Actions.php:924
+msgid "Facebook"
+msgstr ""
+
+#: pro/includes/Actions.php:931
+msgid "Twitter"
+msgstr ""
+
+#: pro/includes/Actions.php:938
+msgid "Whatsapp"
+msgstr ""
+
+#: pro/includes/Actions.php:945
+msgid "Linkedin"
+msgstr ""
+
+#: pro/includes/Actions.php:952
+msgid "Pinterest"
+msgstr ""
+
+#: pro/includes/Actions.php:959
+msgid "Email"
+msgstr ""
+
+#: pro/includes/Actions.php:977
+#: pro/includes/Settings.php:68
+msgid "QR Code"
+msgstr ""
+
+#: pro/includes/Actions.php:988
+msgid "SVG QR Code"
+msgstr ""
+
+#: pro/includes/Actions.php:1035
+msgid "Share"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:279
+msgid "Domain has been deleted successfully!"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:294
+msgid "Domain(s) have been deleted successfully!"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:297
+msgid "Please select domain(s) to delete."
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:343
+msgid "Domain has been saved successfully!"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:361
+msgid "Edit Domain"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:371
+msgid "New Domain"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:372
+msgid "Save Domain"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:439
+msgid "You do not have permission to edit this domain."
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:445
+msgid "Please Enter Host"
+msgstr ""
+
+#: pro/includes/Admin/Domains_Table.php:486
+msgid "Search Domains"
+msgstr ""
+
+#: pro/includes/Admin/Templates/domain-form.php:19
+msgid "Domains "
+msgstr ""
+
+#: pro/includes/PRO_Helper.php:54
+msgid "Please enter valid password"
+msgstr ""
+
+#: pro/includes/Settings.php:39
+msgid "General"
+msgstr ""
+
+#: pro/includes/Settings.php:44
+msgid "Reports"
+msgstr ""
+
+#: pro/includes/Settings.php:49
+msgid "Access Control"
+msgstr ""
+
+#: pro/includes/Settings.php:76
+msgid "Slug Character Count"
+msgstr ""
+
+#: pro/includes/Settings.php:98
+msgid "Posts"
+msgstr ""
+
+#: pro/includes/Settings.php:99
+msgid "Pages"
+msgstr ""
+
+#: pro/includes/Settings.php:114
+msgid "Auto Create Links For"
+msgstr ""
+
+#: pro/includes/Settings.php:119
+msgid "Select Custom Post Type(s)"
+msgstr ""
+
+#: pro/includes/Settings.php:135
+msgid "Reporting Options"
+msgstr ""
+
+#: pro/includes/Settings.php:140
+msgid "Filter Robots"
+msgstr ""
+
+#: pro/includes/Settings.php:141
+msgid "Filter known Robots and unidentifiable browser clients from your click stats"
+msgstr ""
+
+#: pro/includes/Settings.php:148
+msgid "Excluded IP Addresses"
+msgstr ""
+
+#: pro/includes/Settings.php:149
+msgid "Enter IP Addresses or IP Ranges you want to exclude from your click stats. Each IP Address should be separated by commas. Example: 192.168.0.1, 192.168.2.1 or 192.168.*.*"
+msgstr ""
+
+#: pro/includes/Settings.php:165
+msgid "Public Link"
+msgstr ""
+
+#: pro/includes/Settings.php:166
+msgid "Enabling this option will give you the ability to turn your website into a link shortening service for your users. Once selected, you can display the link creation form with the <code>[url-shortify-form]</code> shortcode in any post or page on your website."
+msgstr ""
+
+#: pro/includes/Settings.php:173
+msgid "Anonymise Clicks Data"
+msgstr ""
+
+#: pro/includes/Settings.php:174
+msgid "Anonymise all clicks data will anonymise all personal clicks data like IP address, User-Agents, Referrers, Country, OS, Device and more. You are still able to track clicks count"
+msgstr ""
+
+#: pro/includes/Settings.php:177
+msgid "Do Not Anonymise"
+msgstr ""
+
+#: pro/includes/Settings.php:178
+msgid "Anonymise All Clicks Data"
+msgstr ""
+
+#: pro/includes/Settings.php:179
+msgid "Anonymise Only IP Address"
+msgstr ""
+
+#: pro/includes/Settings.php:190
+msgid "Access"
+msgstr ""
+
+#: pro/includes/Settings.php:218
+msgid "Create Link"
+msgstr ""
+
+#: pro/includes/Settings.php:219
+msgid "Manage Links"
+msgstr ""
+
+#: pro/includes/Settings.php:220
+msgid "Manage Groups"
+msgstr ""
+
+#: pro/includes/Settings.php:221
+msgid "Manage Custom Domains"
+msgstr ""
+
+#: pro/includes/Widgets.php:30
+msgid "Popular Links"
+msgstr ""
+
+#: pro/Templates/cloaked-redirect.php:16
+msgid "Your browser does not support frames."
+msgstr ""
+
+#: pro/Templates/password.php:28
+msgid "The link you are trying to access is password protected."
+msgstr ""
+
+#: pro/Templates/password.php:40
+msgid "Enter"
+msgstr ""
+
+#. translators: %s: PHP version
+#: url-shortify.php:118
+msgid "URL Shortify requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
